@@ -1,1 +1,19 @@
+:root{
+  --primary-color: #4C5760;
+  --secondary-color: #93A8AC;
+  --ternary-color: #66635B;
+  
+}
 
+
+body{
+  background-color: var(--primary-color);
+  font-family: Arial, Helvetica, sans-serif;font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
+}
+
+
+.information-box{
+  background-color: var(--secondary-color);
+  border: solid;
+}

@@ -1,3 +1,4 @@
+import React, {useState} from 'react';
 function Contact(){
 
     //state
@@ -15,7 +16,7 @@ function Contact(){
     //handle validations
     const handleChanges = (e) => {
         if(e.target.name === 'email'){
-            const isValid = validateEmail(e.target.value);
+           const isValid = true /*validateEmail(e.target.value);*/
             //if not valid
             if(!isValid){
                 setErrorMessage('Email is not valid. Please enter a valid Email.')
@@ -41,7 +42,7 @@ function Contact(){
     return(
        <section>
            <h1>Contact Me Below!</h1>
-           <form id = "contact-form" onSubmit={submitHandler}>
+           <form className = "information-box" id = "contact-form" onSubmit={submitHandler}>
                 <div>
                     <label>What is your name?</label>
                     <input type="text" name="name" defaultValue={name}/>
