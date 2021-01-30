@@ -1,8 +1,37 @@
+import resume from '../../assets/images/resume.jpg';
+
 function Resume(){
     return(
-        <div>
+        <section>
+            <h1 className="title d-flex justify-content-center">Resume</h1>
+            <div class = "container information-box">
+                <h2>List of Proficiencies</h2>
+                <div class = "row">
+                    <div class="col-6">
+                        <ul>
+                            <li>HTML5</li>
+                            <li>MongoDB</li>
+                            <li>Sequelize</li>
+                            <li>Boostrap</li>
+                        </ul>
 
-        </div>
+                    </div>
+                    <div class="col-6">
+                        <ul>
+                            <li>PWA</li>
+                            <li>Express.js</li>
+                            <li>Node.js</li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+
+            <br/>
+            <div>
+                <img className = "img-fluid" src={resume} alt="resume"></img>
+            </div>
+        </section>
     )
 }
 

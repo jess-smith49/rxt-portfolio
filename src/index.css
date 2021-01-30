@@ -1,12 +1,13 @@
 :root{
   --primary-color: #0e0c0c;
   --secondary-color: #a2b9bd;
-  --ternary-color: #66635B;
+  --ternary-color: #8b897f;
   
 }
 
 header{
-  background-image:url('./assets/images/header.jpg')
+  background-image:url('./assets/images/port_header.jpeg');
+  background-size:cover;
 }
 body{
   background-color: var(--primary-color);
@@ -25,15 +26,27 @@ body{
 }
 
 .information-box{
-  background-color: var(--secondary-color);
+  background-color: var(--ternary-color);
   border: solid;
-  
 }
 
 .card-title{
  font-weight: bold;
 }
 
-.budget-tracker {
-  background-image: url("./assets/images/budget.png")
+.footer {
+  border-style: solid;
+  background-color: white;
+  text-align: center;
+  left: 0;
+  bottom: 0;
+  width: 100%;
 }
+
+.para {
+  padding: 20px;
+}
+a{
+  color: black;
+}
+

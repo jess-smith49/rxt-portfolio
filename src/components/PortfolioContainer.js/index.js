@@ -4,6 +4,7 @@ import About from '../About';
 import Contact from '../Contact';
 import Projects from '../Projects';
 import Resume from '../Resume';
+import Footer from '../Footer';
 //import Footer from '../Footer';
 
 function Portfolio(){
@@ -27,7 +28,7 @@ function Portfolio(){
         <div>
             <Nav currentPage={currentPage} handlePageChange={handlePageChange} />
             <div>{rednerPage(currentPage)}</div>
-        
+            <Footer></Footer>
         </div>
     )
 };
