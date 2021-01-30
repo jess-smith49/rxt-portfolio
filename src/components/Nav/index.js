@@ -2,10 +2,14 @@ function Nav(props){
 
     const tabs = ['About', 'Projects', 'Contact', 'Resume']
     return(
+      
         <header>
-          <ul>
+          <div className = "name">
+            JESSICA SMITH
+          </div>
+          <ul className = "nav nav-tabs py-3">
       {tabs.map(tab => (
-        <li key={tab}>
+        <li className = "nav-item px-2" key={tab}>
           <a
             href={'#' + tab.toLowerCase()}
             

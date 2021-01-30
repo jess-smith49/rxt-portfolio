@@ -1,6 +1,4 @@
-
 import Portfolio from './components/PortfolioContainer.js';
-
 
 function App() {
   return (

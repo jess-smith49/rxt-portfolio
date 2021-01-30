@@ -5,13 +5,22 @@
   
 }
 
-
+header{
+  background-image:url('./assets/images/header.jpg')
+}
 body{
   background-color: var(--primary-color);
   font-family: Arial, Helvetica, sans-serif;font-family: Arial, Helvetica, sans-serif;
   font-size: 17px;
 }
 
+.name{
+  color: white;
+}
+
+.title{
+  color: black;
+}
 
 .information-box{
   background-color: var(--secondary-color);
