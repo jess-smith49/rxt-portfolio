@@ -40,23 +40,25 @@ function Contact(){
 
 
     return(
-       <section>
-           <h1>Contact Me Below!</h1>
-           <form className = "information-box" id = "contact-form" onSubmit={submitHandler}>
-                <div>
+       
+       <section >
+           <h1 className = "title d-flex justify-content-center"> Contact Me Below</h1>
+           <form className =  "information-box" id = "contact-form" onSubmit={submitHandler}>
+                <div className="d-flex justify-content-center">
                     <label>What is your name?</label>
                     <input type="text" name="name" defaultValue={name}/>
                 </div>
-
-                <div>
+                <br/>
+                <div className="d-flex justify-content-center">
                     <label>Enter Your Email Address</label>
                     <input type="email" name="email" defaultValue={email}/>
                 </div>
-
-                <div>
+                <br/>
+                <div className="d-flex justify-content-center">
                     <label>Your Inquiry</label>
                     <textarea name="message" rows="4" defaultValue={message} />
                 </div>
+                <br/>
                 <button type="submit">Submit</button>
            </form>
        </section>

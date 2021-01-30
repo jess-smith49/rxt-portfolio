@@ -2,6 +2,7 @@
 function Projects(){
     return(
         <div>
+            <h1 className="title d-flex justify-content-center">Portfolio Work</h1>
             <div class="container">
                 <div class="row">
                     <div class="col-sm" >
