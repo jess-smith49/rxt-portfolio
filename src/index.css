@@ -1,6 +1,6 @@
 :root{
-  --primary-color: #4C5760;
-  --secondary-color: #93A8AC;
+  --primary-color: #0e0c0c;
+  --secondary-color: #a2b9bd;
   --ternary-color: #66635B;
   
 }
@@ -19,10 +19,21 @@ body{
 }
 
 .title{
-  color: black;
+  color: white;
+  text-decoration: underline;
+  display: flex;
 }
 
 .information-box{
   background-color: var(--secondary-color);
   border: solid;
+  
+}
+
+.card-title{
+ font-weight: bold;
+}
+
+.budget-tracker {
+  background-image: url("./assets/images/budget.png")
 }
