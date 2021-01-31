@@ -1,4 +1,5 @@
 import React, {useState} from 'react';
+import validateEmail from '../../utils/helpers.js';
 function Contact(){
 
     //state
@@ -16,7 +17,7 @@ function Contact(){
     //handle validations
     const handleChanges = (e) => {
         if(e.target.name === 'email'){
-           const isValid = true /*validateEmail(e.target.value);*/
+           const isValid =validateEmail(e.target.value);
             //if not valid
             if(!isValid){
                 setErrorMessage('Email is not valid. Please enter a valid Email.')
@@ -43,6 +44,7 @@ function Contact(){
        
        <section >
            <h1 className = "title d-flex justify-content-center"> Contact Me Below</h1>
+           
            <form className =  "information-box" id = "contact-form" onSubmit={submitHandler}>
                 <div className="d-flex justify-content-center">
                     <label>What is your name?</label>
@@ -50,17 +52,21 @@ function Contact(){
                 </div>
                 <br/>
                 <div className="d-flex justify-content-center">
-                    <label>Enter Your Email Address</label>
+                    <label>Enter Your Email Address:</label>
                     <input type="email" name="email" defaultValue={email}/>
                 </div>
                 <br/>
                 <div className="d-flex justify-content-center">
-                    <label>Your Inquiry</label>
+                    <label>Your Inquiry:</label>
                     <textarea name="message" rows="4" defaultValue={message} />
                 </div>
                 <br/>
-                <button type="submit">Submit</button>
+                <div className ="d-flex justify-content-center">
+                  <button className = "contact-button" type="submit">Submit</button>  
+                </div>
+                
            </form>
+          
        </section>
     )
 }

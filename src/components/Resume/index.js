@@ -10,6 +10,7 @@ function Resume(){
                     <div class="col-6">
                         <ul>
                             <li>HTML5</li>
+                            <li>JavaScript</li>
                             <li>MongoDB</li>
                             <li>Sequelize</li>
                             <li>Boostrap</li>
@@ -19,8 +20,10 @@ function Resume(){
                     <div class="col-6">
                         <ul>
                             <li>PWA</li>
+                            <li>CSS</li>
                             <li>Express.js</li>
                             <li>Node.js</li>
+                            <li>jQuery</li>
                         </ul>
 
                     </div>

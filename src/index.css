@@ -36,11 +36,12 @@ body{
 
 .footer {
   border-style: solid;
+  justify-content: space-between;
+  text-align: center;
   background-color: white;
   text-align: center;
-  left: 0;
-  bottom: 0;
   width: 100%;
+  
 }
 
 .para {
@@ -50,3 +51,7 @@ a{
   color: black;
 }
 
+.contact-button {
+  background-color: rgb(94, 15, 15);
+  color: white;
+}
