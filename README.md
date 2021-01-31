@@ -13,6 +13,7 @@ For future employers or anyone interested to take a look at my work or learn a l
 In the future I'd like to add more styling to this and make it more exciting. 
 
 ## Screenshot of Application
+![Main Screen](./src/assets/images/main.png)
 
 ## Link to Deployed Application
 

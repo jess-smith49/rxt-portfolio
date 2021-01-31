@@ -1,5 +1,7 @@
 import React, {useState} from 'react';
 import validateEmail from '../../utils/helpers.js';
+
+
 function Contact(){
 
     //state

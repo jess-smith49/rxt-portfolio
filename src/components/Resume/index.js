@@ -3,7 +3,7 @@ import resume from '../../assets/images/resume.jpg';
 function Resume(){
     return(
         <section>
-            <h1 className="title d-flex justify-content-center">Resume</h1>
+           <br/>
             <div class = "container information-box">
                 <h2>List of Proficiencies</h2>
                 <div class = "row">
@@ -30,8 +30,10 @@ function Resume(){
                 </div>
             </div>
 
-            <br/>
-            <div>
+            <br/> 
+            <h1 className="title d-flex justify-content-center">Resume</h1>
+            <div className="d-flex justify-content-center">
+                
                 <img className = "img-fluid" src={resume} alt="resume"></img>
             </div>
         </section>

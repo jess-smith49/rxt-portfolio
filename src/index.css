@@ -35,13 +35,18 @@ body{
 }
 
 .footer {
-  border-style: solid;
-  justify-content: space-between;
-  text-align: center;
-  background-color: white;
-  text-align: center;
+  position: fixed;
+  left: 0;
+  bottom: 0;
   width: 100%;
+  background-color:rgb(70, 64, 64);
+  color: white;
+  text-align: center;
   
+}
+
+.link{
+  color: white;
 }
 
 .para {
